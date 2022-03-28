@@ -49,12 +49,9 @@ class _MyAppState extends State {
             Choice(
               questions[_buttonIndex],
             ),
-            //Choice(questions[_buttonIndex]),
-            ElevatedButton(onPressed: _answerQuestion, child: Text("Button 1")),
-            ElevatedButton(
-                onPressed: _answerQuestion, child: Text("Button 2 Clicked")),
-            ElevatedButton(
-                onPressed: _answerQuestion, child: Text("Button 3 Pressed")),
+            Answer(_answerQuestion),
+            Answer(_answerQuestion),
+            Answer(_answerQuestion),
           ],
         ),
       ),
